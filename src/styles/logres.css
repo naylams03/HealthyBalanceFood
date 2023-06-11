@@ -1,0 +1,63 @@
+.login-container,
+.register-container {
+  width: 95%;
+  height: 580px;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #9dba91, #8bbd75, #57754b);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.judul {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.in {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.tombol {
+  width: 40%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: white;
+  background: #718c66;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tombol:hover {
+  background-color: white;
+  color: #8bbd75;
+}
+
+.p-text,
+.label-text {
+  color: white;
+  justify-content: center;
+  display: flex;
+}
